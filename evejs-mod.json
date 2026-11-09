@@ -1,0 +1,39 @@
+{
+  "author": {
+    "id": "au-mvgf59rqpaue",
+    "keyId": "6d218baa968e",
+    "name": "普罗旺斯煎饼果子"
+  },
+  "category": "工具",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "",
+  "displayName": "logo-manager",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.0/evejs-logo-manager-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261028.x"
+  ],
+  "featured": false,
+  "highlights": [
+    "保留全部 loader 加载要点（身份校验 / require.cache 等待 / unref）",
+    "业务钩子集中在 loader.js 的 start() 里，改这一处即可",
+    "改服务端源码用 SOURCE_PATCH（走注入总线），不自己 hook _compile"
+  ],
+  "history": [],
+  "id": "evejs-logo-manager",
+  "publishedAt": "2026-11-09",
+  "readme": [],
+  "repo": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager",
+  "requiresRestart": true,
+  "sha256": "01bc55b54bd3f00a3a614bf7c7f382ae214c439f5b04784d690f89494e21bc43",
+  "sizeBytes": 14935,
+  "tags": [],
+  "version": "1.0.0"
+}
