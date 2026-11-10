@@ -5,7 +5,7 @@
     "name": "普罗旺斯煎饼果子"
   },
   "category": "工具",
-  "changelog": "增加适配261108.1版本服务端",
+  "changelog": "补充适配261108.1服务端",
   "conflicts": [],
   "delisted": false,
   "description": "在本地网页里上传图片，替换 EVE 联盟图标；支持拖拽/缩放裁剪、预览、恢复默认、备份和客户端缓存清理。当前版本仅联盟图标。",
@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.1.0/evejs-logo-manager-1.1.0.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.3/evejs-logo-manager-1.0.3.zip"
     }
   ],
   "evejsVersions": [
@@ -43,7 +43,7 @@
   ],
   "repo": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager",
   "requiresRestart": true,
-  "sha256": "5c08d805b19954aab96104043e67a9aaa57387ec73fcb5ce0183b2a83e3b22f3",
+  "sha256": "f2aa65f9169cb02cb950df400c072869b557551d20f3f887ed5785d7cf225539",
   "sizeBytes": 53715,
   "tags": [
     "自定义图标",
@@ -52,5 +52,5 @@
     "网页",
     "图标"
   ],
-  "version": "1.1.0"
+  "version": "1.0.3"
 }
