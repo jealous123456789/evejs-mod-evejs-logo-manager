@@ -5,7 +5,7 @@
     "name": "普罗旺斯煎饼果子"
   },
   "category": "工具",
-  "changelog": "发布正式版本",
+  "changelog": "增加适配261108.1版本服务端",
   "conflicts": [],
   "delisted": false,
   "description": "在本地网页里上传图片，替换 EVE 联盟图标；支持拖拽/缩放裁剪、预览、恢复默认、备份和客户端缓存清理。当前版本仅联盟图标。",
@@ -14,11 +14,12 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.0.2/evejs-logo-manager-1.0.2.zip"
+      "url": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager/releases/download/v1.1.0/evejs-logo-manager-1.1.0.zip"
     }
   ],
   "evejsVersions": [
-    "261028.x"
+    "261028.x",
+    "261108.x"
   ],
   "featured": false,
   "highlights": [
@@ -34,7 +35,7 @@
   ],
   "history": [],
   "id": "evejs-logo-manager",
-  "publishedAt": "2026-11-09",
+  "publishedAt": "2026-11-10",
   "readme": [
     "联盟图标管理器是一个运行在游戏服务端进程里的本机网页工具。启用模组、重启服务器后，用浏览器打开 `http://127.0.0.1:26009/` 就能管理联盟图标，不需要手动复制文件，也不修改服务端源码。",
     "上传图片后，网页会自动裁剪成正方形并转成 PNG，写入图床使用的 32 / 64 / 128 / 256 / 512 / 1024 六个尺寸。建筑和主权标志通常很快刷新；舰船上的联盟标志是客户端 SOF 贴花，需要清除客户端缓存并完全重启客户端后才会更新，网页里提供了对应的一键清理按钮。",
@@ -42,8 +43,8 @@
   ],
   "repo": "https://github.com/jealous123456789/evejs-mod-evejs-logo-manager",
   "requiresRestart": true,
-  "sha256": "f32ebe5970172bd28b33e701cb1938bafea16433a0d593ea5d6e145cf6b7f5f2",
-  "sizeBytes": 48418,
+  "sha256": "046e71a67577399b928c5b21a374bfb2c2a8335cf83ca3c2d433126c21af1f10",
+  "sizeBytes": 53714,
   "tags": [
     "自定义图标",
     "logo",
@@ -51,5 +52,5 @@
     "网页",
     "图标"
   ],
-  "version": "1.0.2"
+  "version": "1.1.0"
 }
